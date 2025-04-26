@@ -5,6 +5,7 @@ import Navigation from './Navigation';
 import BannerTitle from './BannerTitle';
 import Sidebar from './Sidebar';
 import Announcements from './Announcements';
+import Admissions from './Admissions';
 
 
 export default function Index() {
@@ -20,6 +21,8 @@ export default function Index() {
                 <Sidebar />
                 <div className="main-content">
                     <Announcements />
+                    <Admissions />
+
                 </div>
             </div>
         </>
