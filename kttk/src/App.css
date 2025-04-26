@@ -251,3 +251,14 @@
 .social-links img {
     width: 20px;
 }
+
+.banner-title {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.banner-content img,
+.banner-content p {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}

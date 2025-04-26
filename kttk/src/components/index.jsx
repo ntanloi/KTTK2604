@@ -2,6 +2,8 @@ import React from 'react';
 import HeaderTop from './HeaderTop';
 import HeaderMain from './HeaderMain';
 import Navigation from './Navigation';
+import BannerTitle from './BannerTitle';
+
 
 export default function Index() {
     return (
@@ -9,7 +11,9 @@ export default function Index() {
             <HeaderTop /> 
             <HeaderMain />
             <Navigation />
-
+            <div className="banner">
+                <BannerTitle />
+            </div>
         </>
     );
 }
