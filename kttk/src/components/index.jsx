@@ -7,12 +7,13 @@ import Sidebar from './Sidebar';
 import Announcements from './Announcements';
 import Admissions from './Admissions';
 import InternationalCooperation from './InternationalCooperation';
-
+import FooterGrid from './FooterGrid';
+import FooterBottom from './FooterBottom';
 
 export default function Index() {
     return (
         <>
-            <HeaderTop /> 
+            <HeaderTop />
             <HeaderMain />
             <Navigation />
             <div className="banner">
@@ -24,8 +25,11 @@ export default function Index() {
                     <Announcements />
                     <Admissions />
                     <InternationalCooperation />
-
                 </div>
+            </div>
+            <div className="footer">
+                <FooterGrid />
+                <FooterBottom />
             </div>
         </>
     );
