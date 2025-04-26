@@ -30,6 +30,7 @@ export default function Index() {
             <div className="footer">
                 <FooterGrid />
                 <FooterBottom />
+
             </div>
         </>
     );
